@@ -24,13 +24,13 @@
             // {
               name = "python-dev-env";
 
-              # Packages installed in the development shell
+              # Packages available in the dev-shell
               targetPkgs =
                 pkgs: with pkgs; [
                   python3
                   python3Packages.uv
                 ];
-              # Commands to be executed in the development shell
+
               profile = ''
                 echo -e "\e[1;34mentering dev-shell...\e[0m"
               '';
