@@ -1,0 +1,11 @@
+[project]
+name = "pygfx-imgui-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "glfw>=2.8.0",
+    "imgui-bundle>=1.6.0",
+    "pygfx>=0.6.0",
+]
